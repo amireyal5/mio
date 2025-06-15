@@ -31,20 +31,27 @@
     <meta property="article:tag" content="חרדה">
     <meta property="article:tag" content="פוביה ספציפית">
     <meta property="article:tag" content="Cbt">
+    <meta property="og:image" content="http://localhost:1313/blog/specific-phobia/featured-background.jpg">
 
   <meta itemprop="name" content=" מהי פוביה ספציפית וכיצד מטפלים?">
   <meta itemprop="description" content="האם יש משהו ספציפי שמעורר בכם פחד כה עז, עד שאתם מוכנים לעשות כמעט הכל כדי להימנע ממנו? בין אם זה פחד בלתי נשלט מגבהים, טיסות, נחשים, זריקות או מצבים חברתיים מסוימים, ייתכן שאתם מתמודדים עם פוביה ספציפית. פוביה היא הרבה יותר מסתם “פחד” – זוהי תגובה רגשית ופיזית עוצמתית, בלתי פרופורציונלית לסכנה האמיתית, שיכולה להשתק חיים שלמים. מאמר זה נועד לסייע לכם להבין טוב יותר את הפוביה הספציפית, להפחית את הסטיגמה סביבה, ולהרגיש בנוח לפנות לטיפול מקצועי שיעניק לכם את הכלים לשחרר את עצמכם מהפחד ולחיות חיים מלאים וחופשיים.">
   <meta itemprop="datePublished" content="2025-05-07T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-05-07T00:00:00+00:00">
   <meta itemprop="wordCount" content="1017">
+  <meta itemprop="image" content="http://localhost:1313/blog/specific-phobia/featured-background.jpg">
   <meta itemprop="keywords" content="חרדה,פוביה ספציפית,Cbt">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/blog/specific-phobia/featured-background.jpg">
   <meta name="twitter:title" content=" מהי פוביה ספציפית וכיצד מטפלים?">
   <meta name="twitter:description" content="האם יש משהו ספציפי שמעורר בכם פחד כה עז, עד שאתם מוכנים לעשות כמעט הכל כדי להימנע ממנו? בין אם זה פחד בלתי נשלט מגבהים, טיסות, נחשים, זריקות או מצבים חברתיים מסוימים, ייתכן שאתם מתמודדים עם פוביה ספציפית. פוביה היא הרבה יותר מסתם “פחד” – זוהי תגובה רגשית ופיזית עוצמתית, בלתי פרופורציונלית לסכנה האמיתית, שיכולה להשתק חיים שלמים. מאמר זה נועד לסייע לכם להבין טוב יותר את הפוביה הספציפית, להפחית את הסטיגמה סביבה, ולהרגיש בנוח לפנות לטיפול מקצועי שיעניק לכם את הכלים לשחרר את עצמכם מהפחד ולחיות חיים מלאים וחופשיים.">
 <link href="/scss/main.rtl.css" rel="stylesheet">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"></script>
+<script defer
+  src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
+  integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
   crossorigin="anonymous"></script>
 
   </head>
@@ -56,21 +63,34 @@
   <div class="td-navbar-nav-scroll ms-md-auto" id="main_navbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="/he/about/"><span>About</span></a>
+        <a class="nav-link" href="/docs/"><span>Docs</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/he/docs/"><span>Docs</span></a>
+        <a class="nav-link" href="/about/"><span>אודות</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="/blog/"><span>Blog</span></a>
+        <a class="nav-link active" href="/blog/"><span>בלוג</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/he/community/"><span>Community</span></a>
+        <a class="nav-link" href="/faq/"><span>שאלות נפוצות</span></a>
       </li>
       </ul>
   </div>
   <div class="d-none d-lg-block">
+    <div class="td-search td-search--offline">
+  <div class="td-search__icon"></div>
+  <input
+    type="search"
+    class="td-search__input form-control"
+    placeholder=""
+    aria-label=""
+    autocomplete="off"
     
+    data-offline-search-index-json-src="/offline-search-index.json"
+    data-offline-search-base-href="/"
+    data-offline-search-max-results="25"
+  >
+</div>
   </div>
 </div>
 </nav>
@@ -81,17 +101,30 @@
           <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
             <div id="td-sidebar-menu" class="td-sidebar__inner">
   <form class="td-sidebar__search d-flex align-items-center">
+    <div class="td-search td-search--offline">
+  <div class="td-search__icon"></div>
+  <input
+    type="search"
+    class="td-search__input form-control"
+    placeholder=""
+    aria-label=""
+    autocomplete="off"
     
+    data-offline-search-index-json-src="/offline-search-index.json"
+    data-offline-search-base-href="/"
+    data-offline-search-max-results="25"
+  >
+</div>
     <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ms-3 fas fa-bars" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
     </button>
   </form>
   <nav class="td-sidebar-nav collapse" id="td-section-nav">
     <ul class="td-sidebar-nav__section pe-md-3 ul-0">
       <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-blog-li">
-  <a href="/blog/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-blog"><span class="">Blog</span></a>
+  <a href="/blog/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-blog"><span class="">בלוג</span></a>
   <ul class="ul-1">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-blognews-li">
-  <a href="/blog/news/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-blognews"><span class="">News</span></a>
+  <a href="/blog/news/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-blognews"><span class="">חדשות</span></a>
   <ul class="ul-2 foldable">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-blognewsfirst-post-li">
   <a href="/blog/news/first-post/" title="Easy documentation with Docsy" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-blognewsfirst-post"><span class="">Announcing Docsy</span></a>
@@ -118,8 +151,6 @@
   <a href="/blog/parental-authority/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-blogparental-authority"><span class="">סמכות הורית – למה גבולות ואהבה לילד חייבים ללכת יד ביד</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-blogspecific-phobia-li">
   <a href="/blog/specific-phobia/" class="align-left ps-0 active td-sidebar-link td-sidebar-link__page" id="m-blogspecific-phobia"><span class="td-sidebar-nav-active-item"> מהי פוביה ספציפית וכיצד מטפלים?</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-blogd797d7a8d793d794-d797d791d7a8d7aad799d7aa-li">
-  <a href="/blog/%D7%97%D7%A8%D7%93%D7%94-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%AA/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-blogd797d7a8d793d794-d797d791d7a8d7aad799d7aa"><span class="">מהי חרדה חברתית ואיך מטפלים?</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-blogemotional-manipulations-in-divorce-conflicts-li">
   <a href="/blog/emotional-manipulations-in-divorce-conflicts/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-blogemotional-manipulations-in-divorce-conflicts"><span class="">מניפולציות רגשיות בסכסוכי גירושין: לזהות, להבין ולהתמודד</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-blogmindfulness-li">
@@ -167,42 +198,42 @@
       <ul class="taxonomy-terms">
         <li><a class="taxonomy-term" href="http://localhost:1313/categories/examples/" data-taxonomy-term="examples"><span class="taxonomy-label">Examples</span><span class="taxonomy-count">2</span></a></li>
         <li><a class="taxonomy-term" href="http://localhost:1313/categories/placeholders/" data-taxonomy-term="placeholders"><span class="taxonomy-label">Placeholders</span><span class="taxonomy-count">1</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/categories/%D7%94%D7%93%D7%A8%D7%9B%D7%AA-%D7%94%D7%95%D7%A8%D7%99%D7%9D/" data-taxonomy-term="%D7%94%D7%93%D7%A8%D7%9B%D7%AA-%D7%94%D7%95%D7%A8%D7%99%D7%9D"><span class="taxonomy-label">הדרכת הורים</span><span class="taxonomy-count">8</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/categories/%D7%9E%D7%AA%D7%91%D7%92%D7%A8%D7%99%D7%9D/" data-taxonomy-term="%D7%9E%D7%AA%D7%91%D7%92%D7%A8%D7%99%D7%9D"><span class="taxonomy-label">מתבגרים</span><span class="taxonomy-count">15</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/categories/%D7%A4%D7%A1%D7%99%D7%9B%D7%95%D7%AA%D7%A8%D7%A4%D7%99%D7%94/" data-taxonomy-term="%D7%A4%D7%A1%D7%99%D7%9B%D7%95%D7%AA%D7%A8%D7%A4%D7%99%D7%94"><span class="taxonomy-label">פסיכותרפיה</span><span class="taxonomy-count">21</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/categories/%D7%94%D7%93%D7%A8%D7%9B%D7%AA-%D7%94%D7%95%D7%A8%D7%99%D7%9D/" data-taxonomy-term="%D7%94%D7%93%D7%A8%D7%9B%D7%AA-%D7%94%D7%95%D7%A8%D7%99%D7%9D"><span class="taxonomy-label">הדרכת הורים</span><span class="taxonomy-count">4</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/categories/%D7%9E%D7%AA%D7%91%D7%92%D7%A8%D7%99%D7%9D/" data-taxonomy-term="%D7%9E%D7%AA%D7%91%D7%92%D7%A8%D7%99%D7%9D"><span class="taxonomy-label">מתבגרים</span><span class="taxonomy-count">6</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/categories/%D7%A4%D7%A1%D7%99%D7%9B%D7%95%D7%AA%D7%A8%D7%A4%D7%99%D7%94/" data-taxonomy-term="%D7%A4%D7%A1%D7%99%D7%9B%D7%95%D7%AA%D7%A8%D7%A4%D7%99%D7%94"><span class="taxonomy-label">פסיכותרפיה</span><span class="taxonomy-count">9</span></a></li>
         </ul>
     </div>
   <div class="taxonomy taxonomy-terms-cloud taxo-tags">
       <h5 class="taxonomy-title">Tags</h5>
       <ul class="taxonomy-terms">
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/cbt/" data-taxonomy-term="cbt"><span class="taxonomy-label">Cbt</span><span class="taxonomy-count">11</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/cbt/" data-taxonomy-term="cbt"><span class="taxonomy-label">Cbt</span><span class="taxonomy-count">4</span></a></li>
         <li><a class="taxonomy-term" href="http://localhost:1313/tags/docs/" data-taxonomy-term="docs"><span class="taxonomy-label">Docs</span><span class="taxonomy-count">2</span></a></li>
         <li><a class="taxonomy-term" href="http://localhost:1313/tags/sample/" data-taxonomy-term="sample"><span class="taxonomy-label">Sample</span><span class="taxonomy-count">1</span></a></li>
         <li><a class="taxonomy-term" href="http://localhost:1313/tags/test/" data-taxonomy-term="test"><span class="taxonomy-label">Test</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%90%D7%94%D7%91%D7%94/" data-taxonomy-term="%D7%90%D7%94%D7%91%D7%94"><span class="taxonomy-label">אהבה</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA-%D7%94%D7%A0%D7%A4%D7%A9/" data-taxonomy-term="%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA-%D7%94%D7%A0%D7%A4%D7%A9"><span class="taxonomy-label">בריאות הנפש</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%92%D7%91%D7%95%D7%9C%D7%95%D7%AA/" data-taxonomy-term="%D7%92%D7%91%D7%95%D7%9C%D7%95%D7%AA"><span class="taxonomy-label">גבולות</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%92%D7%99%D7%A8%D7%95%D7%A9%D7%99%D7%9D/" data-taxonomy-term="%D7%92%D7%99%D7%A8%D7%95%D7%A9%D7%99%D7%9D"><span class="taxonomy-label">גירושים</span><span class="taxonomy-count">4</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%92%D7%9C%D7%95%D7%91%D7%95%D7%A1-%D7%94%D7%99%D7%A1%D7%98%D7%A8%D7%99%D7%A7%D7%95%D7%A1/" data-taxonomy-term="%D7%92%D7%9C%D7%95%D7%91%D7%95%D7%A1-%D7%94%D7%99%D7%A1%D7%98%D7%A8%D7%99%D7%A7%D7%95%D7%A1"><span class="taxonomy-label">גלובוס היסטריקוס</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%93%D7%90%D7%92%D7%94/" data-taxonomy-term="%D7%93%D7%90%D7%92%D7%94"><span class="taxonomy-label">דאגה</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%94%D7%93%D7%A8%D7%9B%D7%AA-%D7%94%D7%95%D7%A8%D7%99%D7%9D/" data-taxonomy-term="%D7%94%D7%93%D7%A8%D7%9B%D7%AA-%D7%94%D7%95%D7%A8%D7%99%D7%9D"><span class="taxonomy-label">הדרכת הורים</span><span class="taxonomy-count">4</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%94%D7%95%D7%A8%D7%95%D7%AA-%D7%97%D7%99%D7%95%D7%91%D7%99%D7%AA/" data-taxonomy-term="%D7%94%D7%95%D7%A8%D7%95%D7%AA-%D7%97%D7%99%D7%95%D7%91%D7%99%D7%AA"><span class="taxonomy-label">הורות חיובית</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%94%D7%AA%D7%9E%D7%95%D7%93%D7%93%D7%95%D7%AA/" data-taxonomy-term="%D7%94%D7%AA%D7%9E%D7%95%D7%93%D7%93%D7%95%D7%AA"><span class="taxonomy-label">התמודדות</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%97%D7%99%D7%A0%D7%95%D7%9A/" data-taxonomy-term="%D7%97%D7%99%D7%A0%D7%95%D7%9A"><span class="taxonomy-label">חינוך</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%97%D7%A8%D7%93%D7%94/" data-taxonomy-term="%D7%97%D7%A8%D7%93%D7%94"><span class="taxonomy-label">חרדה</span><span class="taxonomy-count">9</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%98%D7%99%D7%A4%D7%95%D7%9C/" data-taxonomy-term="%D7%98%D7%99%D7%A4%D7%95%D7%9C"><span class="taxonomy-label">טיפול</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%A8%D7%92%D7%A9%D7%99/" data-taxonomy-term="%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%A8%D7%92%D7%A9%D7%99"><span class="taxonomy-label">טיפול רגשי</span><span class="taxonomy-count">4</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%99%D7%97%D7%A1%D7%99%D7%9D/" data-taxonomy-term="%D7%99%D7%97%D7%A1%D7%99%D7%9D"><span class="taxonomy-label">יחסים</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%9C%D7%97%D7%A5/" data-taxonomy-term="%D7%9C%D7%97%D7%A5"><span class="taxonomy-label">לחץ</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%9E%D7%99%D7%99%D7%A0%D7%93%D7%A4%D7%95%D7%9C%D7%A0%D7%A1/" data-taxonomy-term="%D7%9E%D7%99%D7%99%D7%A0%D7%93%D7%A4%D7%95%D7%9C%D7%A0%D7%A1"><span class="taxonomy-label">מיינדפולנס</span><span class="taxonomy-count">4</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%9E%D7%A0%D7%99%D7%A4%D7%95%D7%9C%D7%A6%D7%99%D7%94-%D7%A8%D7%92%D7%A9%D7%99%D7%AA/" data-taxonomy-term="%D7%9E%D7%A0%D7%99%D7%A4%D7%95%D7%9C%D7%A6%D7%99%D7%94-%D7%A8%D7%92%D7%A9%D7%99%D7%AA"><span class="taxonomy-label">מניפולציה רגשית</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%9E%D7%A1%D7%9B%D7%99%D7%9D/" data-taxonomy-term="%D7%9E%D7%A1%D7%9B%D7%99%D7%9D"><span class="taxonomy-label">מסכים</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%9E%D7%AA%D7%97/" data-taxonomy-term="%D7%9E%D7%AA%D7%97"><span class="taxonomy-label">מתח</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%A1%D7%9B%D7%A1%D7%95%D7%9A-%D7%92%D7%99%D7%A8%D7%95%D7%A9%D7%99%D7%9F/" data-taxonomy-term="%D7%A1%D7%9B%D7%A1%D7%95%D7%9A-%D7%92%D7%99%D7%A8%D7%95%D7%A9%D7%99%D7%9F"><span class="taxonomy-label">סכסוך גירושין</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%A1%D7%9E%D7%9B%D7%95%D7%AA-%D7%94%D7%95%D7%A8%D7%99%D7%AA/" data-taxonomy-term="%D7%A1%D7%9E%D7%9B%D7%95%D7%AA-%D7%94%D7%95%D7%A8%D7%99%D7%AA"><span class="taxonomy-label">סמכות הורית</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%A4%D7%95%D7%91%D7%99%D7%94-%D7%A1%D7%A4%D7%A6%D7%99%D7%A4%D7%99%D7%AA/" data-taxonomy-term="%D7%A4%D7%95%D7%91%D7%99%D7%94-%D7%A1%D7%A4%D7%A6%D7%99%D7%A4%D7%99%D7%AA"><span class="taxonomy-label">פוביה ספציפית</span><span class="taxonomy-count">5</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%A4%D7%A1%D7%99%D7%9B%D7%95%D7%AA%D7%A8%D7%A4%D7%99%D7%94/" data-taxonomy-term="%D7%A4%D7%A1%D7%99%D7%9B%D7%95%D7%AA%D7%A8%D7%A4%D7%99%D7%94"><span class="taxonomy-label">פסיכותרפיה</span><span class="taxonomy-count">2</span></a></li>
-        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%A9%D7%9C%D7%99%D7%98%D7%94-%D7%91%D7%9B%D7%A2%D7%A1%D7%99%D7%9D/" data-taxonomy-term="%D7%A9%D7%9C%D7%99%D7%98%D7%94-%D7%91%D7%9B%D7%A2%D7%A1%D7%99%D7%9D"><span class="taxonomy-label">שליטה בכעסים</span><span class="taxonomy-count">2</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%90%D7%94%D7%91%D7%94/" data-taxonomy-term="%D7%90%D7%94%D7%91%D7%94"><span class="taxonomy-label">אהבה</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA-%D7%94%D7%A0%D7%A4%D7%A9/" data-taxonomy-term="%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA-%D7%94%D7%A0%D7%A4%D7%A9"><span class="taxonomy-label">בריאות הנפש</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%92%D7%91%D7%95%D7%9C%D7%95%D7%AA/" data-taxonomy-term="%D7%92%D7%91%D7%95%D7%9C%D7%95%D7%AA"><span class="taxonomy-label">גבולות</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%92%D7%99%D7%A8%D7%95%D7%A9%D7%99%D7%9D/" data-taxonomy-term="%D7%92%D7%99%D7%A8%D7%95%D7%A9%D7%99%D7%9D"><span class="taxonomy-label">גירושים</span><span class="taxonomy-count">2</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%92%D7%9C%D7%95%D7%91%D7%95%D7%A1-%D7%94%D7%99%D7%A1%D7%98%D7%A8%D7%99%D7%A7%D7%95%D7%A1/" data-taxonomy-term="%D7%92%D7%9C%D7%95%D7%91%D7%95%D7%A1-%D7%94%D7%99%D7%A1%D7%98%D7%A8%D7%99%D7%A7%D7%95%D7%A1"><span class="taxonomy-label">גלובוס היסטריקוס</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%93%D7%90%D7%92%D7%94/" data-taxonomy-term="%D7%93%D7%90%D7%92%D7%94"><span class="taxonomy-label">דאגה</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%94%D7%93%D7%A8%D7%9B%D7%AA-%D7%94%D7%95%D7%A8%D7%99%D7%9D/" data-taxonomy-term="%D7%94%D7%93%D7%A8%D7%9B%D7%AA-%D7%94%D7%95%D7%A8%D7%99%D7%9D"><span class="taxonomy-label">הדרכת הורים</span><span class="taxonomy-count">2</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%94%D7%95%D7%A8%D7%95%D7%AA-%D7%97%D7%99%D7%95%D7%91%D7%99%D7%AA/" data-taxonomy-term="%D7%94%D7%95%D7%A8%D7%95%D7%AA-%D7%97%D7%99%D7%95%D7%91%D7%99%D7%AA"><span class="taxonomy-label">הורות חיובית</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%94%D7%AA%D7%9E%D7%95%D7%93%D7%93%D7%95%D7%AA/" data-taxonomy-term="%D7%94%D7%AA%D7%9E%D7%95%D7%93%D7%93%D7%95%D7%AA"><span class="taxonomy-label">התמודדות</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%97%D7%99%D7%A0%D7%95%D7%9A/" data-taxonomy-term="%D7%97%D7%99%D7%A0%D7%95%D7%9A"><span class="taxonomy-label">חינוך</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%97%D7%A8%D7%93%D7%94/" data-taxonomy-term="%D7%97%D7%A8%D7%93%D7%94"><span class="taxonomy-label">חרדה</span><span class="taxonomy-count">3</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%98%D7%99%D7%A4%D7%95%D7%9C/" data-taxonomy-term="%D7%98%D7%99%D7%A4%D7%95%D7%9C"><span class="taxonomy-label">טיפול</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%A8%D7%92%D7%A9%D7%99/" data-taxonomy-term="%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%A8%D7%92%D7%A9%D7%99"><span class="taxonomy-label">טיפול רגשי</span><span class="taxonomy-count">2</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%99%D7%97%D7%A1%D7%99%D7%9D/" data-taxonomy-term="%D7%99%D7%97%D7%A1%D7%99%D7%9D"><span class="taxonomy-label">יחסים</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%9C%D7%97%D7%A5/" data-taxonomy-term="%D7%9C%D7%97%D7%A5"><span class="taxonomy-label">לחץ</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%9E%D7%99%D7%99%D7%A0%D7%93%D7%A4%D7%95%D7%9C%D7%A0%D7%A1/" data-taxonomy-term="%D7%9E%D7%99%D7%99%D7%A0%D7%93%D7%A4%D7%95%D7%9C%D7%A0%D7%A1"><span class="taxonomy-label">מיינדפולנס</span><span class="taxonomy-count">2</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%9E%D7%A0%D7%99%D7%A4%D7%95%D7%9C%D7%A6%D7%99%D7%94-%D7%A8%D7%92%D7%A9%D7%99%D7%AA/" data-taxonomy-term="%D7%9E%D7%A0%D7%99%D7%A4%D7%95%D7%9C%D7%A6%D7%99%D7%94-%D7%A8%D7%92%D7%A9%D7%99%D7%AA"><span class="taxonomy-label">מניפולציה רגשית</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%9E%D7%A1%D7%9B%D7%99%D7%9D/" data-taxonomy-term="%D7%9E%D7%A1%D7%9B%D7%99%D7%9D"><span class="taxonomy-label">מסכים</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%9E%D7%AA%D7%97/" data-taxonomy-term="%D7%9E%D7%AA%D7%97"><span class="taxonomy-label">מתח</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%A1%D7%9B%D7%A1%D7%95%D7%9A-%D7%92%D7%99%D7%A8%D7%95%D7%A9%D7%99%D7%9F/" data-taxonomy-term="%D7%A1%D7%9B%D7%A1%D7%95%D7%9A-%D7%92%D7%99%D7%A8%D7%95%D7%A9%D7%99%D7%9F"><span class="taxonomy-label">סכסוך גירושין</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%A1%D7%9E%D7%9B%D7%95%D7%AA-%D7%94%D7%95%D7%A8%D7%99%D7%AA/" data-taxonomy-term="%D7%A1%D7%9E%D7%9B%D7%95%D7%AA-%D7%94%D7%95%D7%A8%D7%99%D7%AA"><span class="taxonomy-label">סמכות הורית</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%A4%D7%95%D7%91%D7%99%D7%94-%D7%A1%D7%A4%D7%A6%D7%99%D7%A4%D7%99%D7%AA/" data-taxonomy-term="%D7%A4%D7%95%D7%91%D7%99%D7%94-%D7%A1%D7%A4%D7%A6%D7%99%D7%A4%D7%99%D7%AA"><span class="taxonomy-label">פוביה ספציפית</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%A4%D7%A1%D7%99%D7%9B%D7%95%D7%AA%D7%A8%D7%A4%D7%99%D7%94/" data-taxonomy-term="%D7%A4%D7%A1%D7%99%D7%9B%D7%95%D7%AA%D7%A8%D7%A4%D7%99%D7%94"><span class="taxonomy-label">פסיכותרפיה</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/%D7%A9%D7%9C%D7%99%D7%98%D7%94-%D7%91%D7%9B%D7%A2%D7%A1%D7%99%D7%9D/" data-taxonomy-term="%D7%A9%D7%9C%D7%99%D7%98%D7%94-%D7%91%D7%9B%D7%A2%D7%A1%D7%99%D7%9D"><span class="taxonomy-label">שליטה בכעסים</span><span class="taxonomy-count">1</span></a></li>
         </ul>
     </div>
   
@@ -215,7 +246,7 @@
             <nav aria-label="breadcrumb" class="td-breadcrumbs">
   <ol class="breadcrumb">
   <li class="breadcrumb-item">
-    <a href="/blog/">Blog</a></li>
+    <a href="/blog/">בלוג</a></li>
   <li class="breadcrumb-item active" aria-current="page">
      מהי פוביה ספציפית וכיצד מטפלים?</li>
   </ol>
@@ -299,7 +330,7 @@
 <p>אם אתה מרגיש שזה הזמן לעשות שינוי ולצאת לחופשי מהפוביה, אני מזמין אותך <strong><a href="/contact">ליצור קשר עוד היום</a></strong> הצעד הראשון הוא תמיד האמיץ ביותר, אך הוא גם המפתח לפתיחת פרק חדש של רוגע, חוסן ועצמאות בחייך.</p>
 	<ul class="list-unstyled d-flex justify-content-between align-items-center mb-0 pt-5">
   <li>
-    <a href="/blog/%D7%97%D7%A8%D7%93%D7%94-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%AA/" aria-label=" - מהי חרדה חברתית ואיך מטפלים?" class="btn btn-primary"><span class="me-1">←</span></a>
+    <a href="/blog/emotional-manipulations-in-divorce-conflicts/" aria-label=" - מניפולציות רגשיות בסכסוכי גירושין: לזהות, להבין ולהתמודד" class="btn btn-primary"><span class="me-1">←</span></a>
   </li>
   <li>
     <a href="/blog/parental-authority/" aria-label=" - סמכות הורית – למה גבולות ואהבה לילד חייבים ללכת יד ביד" class="btn btn-primary"><span class="ms-1">→</span></a>

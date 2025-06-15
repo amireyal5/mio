@@ -19,31 +19,31 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title>Blog | האתר החדש שלי</title>
-<meta name="description" content="This is the blog section. It has two categories: News and Releases.
-Files in these directories will be listed in reverse chronological order.">
+<title>בלוג | האתר החדש שלי</title>
+<meta name="description" content="הבלוג שלי: פסיכותרפיה, הורות ומתבגרים">
 <meta property="og:url" content="http://localhost:1313/blog/">
   <meta property="og:site_name" content="האתר החדש שלי">
-  <meta property="og:title" content="Blog">
-  <meta property="og:description" content="This is the blog section. It has two categories: News and Releases.
-Files in these directories will be listed in reverse chronological order.">
+  <meta property="og:title" content="בלוג">
+  <meta property="og:description" content="הבלוג שלי: פסיכותרפיה, הורות ומתבגרים">
   <meta property="og:locale" content="he">
   <meta property="og:type" content="website">
 
-  <meta itemprop="name" content="Blog">
-  <meta itemprop="description" content="This is the blog section. It has two categories: News and Releases.
-Files in these directories will be listed in reverse chronological order.">
+  <meta itemprop="name" content="בלוג">
+  <meta itemprop="description" content="הבלוג שלי: פסיכותרפיה, הורות ומתבגרים">
   <meta itemprop="datePublished" content="2025-06-07T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-06-07T00:00:00+00:00">
-  <meta itemprop="wordCount" content="23">
+  <meta itemprop="wordCount" content="5">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Blog">
-  <meta name="twitter:description" content="This is the blog section. It has two categories: News and Releases.
-Files in these directories will be listed in reverse chronological order.">
+  <meta name="twitter:title" content="בלוג">
+  <meta name="twitter:description" content="הבלוג שלי: פסיכותרפיה, הורות ומתבגרים">
 <link href="/scss/main.rtl.css" rel="stylesheet">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"></script>
+<script defer
+  src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
+  integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
   crossorigin="anonymous"></script>
 
   </head>
@@ -55,21 +55,34 @@ Files in these directories will be listed in reverse chronological order.">
   <div class="td-navbar-nav-scroll ms-md-auto" id="main_navbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="/he/about/"><span>About</span></a>
+        <a class="nav-link" href="/docs/"><span>Docs</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/he/docs/"><span>Docs</span></a>
+        <a class="nav-link" href="/about/"><span>אודות</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="/blog/"><span>Blog</span></a>
+        <a class="nav-link active" href="/blog/"><span>בלוג</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/he/community/"><span>Community</span></a>
+        <a class="nav-link" href="/faq/"><span>שאלות נפוצות</span></a>
       </li>
       </ul>
   </div>
   <div class="d-none d-lg-block">
+    <div class="td-search td-search--offline">
+  <div class="td-search__icon"></div>
+  <input
+    type="search"
+    class="td-search__input form-control"
+    placeholder=""
+    aria-label=""
+    autocomplete="off"
     
+    data-offline-search-index-json-src="/offline-search-index.json"
+    data-offline-search-base-href="/"
+    data-offline-search-max-results="25"
+  >
+</div>
   </div>
 </div>
 </nav>
@@ -99,7 +112,7 @@ Files in these directories will be listed in reverse chronological order.">
 
 
 
-<h1 class="title">Blog</h1>
+<h1 class="title">בלוג</h1>
 
 
 
@@ -117,7 +130,7 @@ Files in these directories will be listed in reverse chronological order.">
     
 	
 
-    <li><a href="#pg-995c359e0eda056a2e3b98e604c59580">News</a></li>
+    <li><a href="#pg-995c359e0eda056a2e3b98e604c59580">חדשות</a></li>
 
 
 
@@ -245,16 +258,6 @@ Files in these directories will be listed in reverse chronological order.">
     
 	
 
-    <li><a href="#pg-72c203a70009e08a84982c22d984f269">מהי חרדה חברתית ואיך מטפלים?</a></li>
-
-
-
-    
-  
-    
-    
-	
-
     <li><a href="#pg-cbce55a857c5d2b5e273c821bbb9e451">מניפולציות רגשיות בסכסוכי גירושין: לזהות, להבין ולהתמודד</a></li>
 
 
@@ -306,8 +309,7 @@ Files in these directories will be listed in reverse chronological order.">
 
 
 <div class="content">
-      <p>This is the <strong>blog</strong> section. It has two categories: News and Releases.</p>
-<p>Files in these directories will be listed in reverse chronological order.</p>
+      <h3 id="הבלוג-שלי-פסיכותרפיה-הורות-ומתבגרים">הבלוג שלי: פסיכותרפיה, הורות ומתבגרים</h3>
 
 </div>
 </div>
@@ -331,7 +333,7 @@ Files in these directories will be listed in reverse chronological order.">
   
 
 <div class="td-content" style="">
-    <h1 id="pg-995c359e0eda056a2e3b98e604c59580">News</h1>
+    <h1 id="pg-995c359e0eda056a2e3b98e604c59580">חדשות</h1>
 	
 	<div class="td-byline mb-4">
 		
@@ -1560,120 +1562,6 @@ bar := &#34;foo&#34;;
 <h2 id="הצעד-הראשון-לחופש-נמצא-בידיים-שלך">הצעד הראשון לחופש נמצא בידיים שלך</h2>
 <p>פוביה ספציפית לא חייבת להגביל את חייך. היכולת להתמודד עם הפחד ולשחרר את עצמך מכבליו היא מיומנות נרכשת, והיא יכולה לשפר באופן דרמטי את איכות חייך ואת החופש האישי שלך. זכור, אתה לא לבד, ואין שום סיבה להמשיך לסבול. יש דרך ללמוד להתמודד טוב יותר, לחוות יותר שלווה וליהנות מחיים מלאים ומאוזנים יותר.</p>
 <p>אם אתה מרגיש שזה הזמן לעשות שינוי ולצאת לחופשי מהפוביה, אני מזמין אותך <strong><a href="/contact">ליצור קשר עוד היום</a></strong> הצעד הראשון הוא תמיד האמיץ ביותר, אך הוא גם המפתח לפתיחת פרק חדש של רוגע, חוסן ועצמאות בחייך.</p>
-</div>
-
-
-
-
-
-    
-	
-  
-    
-    
-	
-    
-
-
-  
-
-<div class="td-content" style="page-break-before: always">
-    <h1 id="pg-72c203a70009e08a84982c22d984f269">מהי חרדה חברתית ואיך מטפלים?</h1>
-	
-	<div class="td-byline mb-4">
-		 <b>עמיר אייל</b> |
-        
-		<time datetime="2025-05-07" class="text-body-secondary">Wednesday, May 07, 2025</time>
-        
-	</div>
-	<p>חרדה חברתית (Social Anxiety Disorder) היא הרבה מעבר לביישנות. מדובר בהפרעה פסיכולוגית עמוקה וכואבת, שבה החשש מביקורת חברתית גורם לסבל משמעותי, הימנעות מהזדמנויות חיים ולעיתים גם לדיכאון נלווה. החדשות הטובות: ניתן לטפל בה – באופן יעיל ומשנה חיים.</p>
-<p>חרדה חברתית היא אחת ההפרעות הנפוצות בקרב מתבגרים ומבוגרים כאחד. היא פוגעת באיכות החיים, ביכולת לייצר קשרים, לקדם קריירה, ולחיות מתוך חופש פנימי. לעיתים קרובות היא אינה מזוהה כראוי – ולעיתים האדם החווה אותה כלל אינו יודע שניתן לטפל בה.</p>
-<h2 id="תיאור-המצב">תיאור המצב</h2>
-<p>הפחד המרכזי בחרדה חברתית הוא להיחשף לביקורת, ללעג או לדחייה בסיטואציות חברתיות. מצבים כמו לדבר מול קהל, ליזום שיחה, לאכול בחברה, או להביע דעה בישיבת צוות – נחווים כמאיימים עד כדי שיתוק.</p>
-<p>ככל שהחרדה מתעצמת, כך גדל מעגל ההימנעות – והחיים נעשים יותר מצומצמים, פחות חופשיים.</p>
-<h2 id="הסבל-הנפשי--מתחת-לפני-השטח">הסבל הנפשי – מתחת לפני השטח</h2>
-<p>הסבל בחרדה חברתית אינו מסתכם בפחד. הוא כולל גם:</p>
-<ul>
-<li><strong>תחושת בדידות עמוקה</strong> – הימנעות ממפגשים פוגעת בקשרים.</li>
-<li><strong>דימוי עצמי נמוך</strong> – האדם תופס את עצמו כ&quot;לא ראוי&quot; או &ldquo;לא מספיק טוב&rdquo;.</li>
-<li><strong>ביקורת פנימית מתמדת</strong> – מחשבות של &ldquo;אני כישלון&rdquo;, &ldquo;יצאתי אידיוט&rdquo;, &ldquo;כולם ראו שאני מתבלבל&rdquo;.</li>
-<li><strong>התשה רגשית</strong> – ניסיון בלתי פוסק &ldquo;להסתיר&rdquo; את הסימפטומים מהסביבה.</li>
-<li><strong>פגיעה בתפקוד מקצועי ואקדמי</strong> – קושי לעמוד מול קהל, להשתתף בדיונים, לעבור ראיונות עבודה.</li>
-</ul>
-<p>במקרים מסוימים, חרדה חברתית שאינה מטופלת עשויה להוביל גם:</p>
-<ul>
-<li>לדיכאון</li>
-<li>להתמכרות (למשל, לאלכוהול כאמצעי להרפיה חברתית)</li>
-<li>לפיתוח תלות באנשים אחרים לקבלת ביטחון</li>
-</ul>
-<h2 id="סימפטומים">סימפטומים</h2>
-<h3 id="פיזיים">פיזיים:</h3>
-<ul>
-<li>דופק מואץ, רעד, יובש בפה</li>
-<li>הזעה מרובה, הסמקה</li>
-<li>קושי בנשימה</li>
-<li>בחילה, כאבי בטן</li>
-</ul>
-<h3 id="קוגניטיביים">קוגניטיביים:</h3>
-<ul>
-<li>מחשבות שליליות כמו &ldquo;יצחקו עליי&rdquo;, &ldquo;יראו כמה אני לא בטוח בעצמי&rdquo;</li>
-<li>פרשנות של כל מבט או הערה כשליליים</li>
-<li>תכנון מוגזם לפני מצבים חברתיים וניתוח אובססיבי אחרי</li>
-</ul>
-<h3 id="התנהגותיים">התנהגותיים:</h3>
-<ul>
-<li>הימנעות מוחלטת או השתתפות &ldquo;מתוכננת מדי&rdquo;</li>
-<li>שתקנות, מבט מושפל, עמידה מרוחקת</li>
-<li>שימוש באביזרים להסוואה (משקפי שמש, טלפון)</li>
-</ul>
-<hr>
-<h2 id="אבחון-איך-יודעים-שזו-חרדה-חברתית">אבחון: איך יודעים שזו חרדה חברתית?</h2>
-<h3 id="ראיון-קליני">ראיון קליני</h3>
-<p>האבחון מתבצע באמצעות שיחה קלינית עם מטפל מוסמך, שבה נבחנים:</p>
-<ul>
-<li>משך הזמן של הסימפטומים (לפחות 6 חודשים)</li>
-<li>מידת הפגיעה בתפקוד</li>
-<li>מצבים שמעוררים את החרדה</li>
-<li>האם קיימת הימנעות פעילה</li>
-</ul>
-<h3 id="שאלונים-פסיכולוגיים--שאלון--לחרדה-חברתית-lsas--spin">שאלונים פסיכולוגיים – <strong>שאלון  לחרדה חברתית (LSAS / SPIN)</strong></h3>
-<p>ה־<strong><a href="/questionnaires/anxiety/">שאלון החרדה החברתית על פי Liebowitz (LSAS)</a></strong> או <strong>Social Phobia Inventory (SPIN)</strong> הם כלים נפוצים לזיהוי חומרת החרדה. השאלון בודק תדירות של פחדים חברתיים והימנעויות, למשל:</p>
-<ul>
-<li>לדבר בטלפון מול אחרים</li>
-<li>לאכול במסעדה</li>
-<li>להיפגש עם זרים</li>
-</ul>
-<p>התשובות מסייעות למטפל לכמת את עוצמת החרדה ולהתאים את הטיפול.</p>
-<hr>
-<h2 id="הימנעות--מנגנון-מובן-אשר-מחמיר-את-המצב">הימנעות – מנגנון מובן, אשר מחמיר את המצב</h2>
-<p>ההימנעות ממצבים שמעוררים חרדה מעניקה תחושת הקלה מיידית, ולכן היא מפתה מאוד – אך בטווח הארוך היא עלולה להנציח ואף להחריף את החרדה. כשאדם נמנע ממצב שמעורר בו פחד, הוא למעשה &ldquo;מלמד&rdquo; את המוח שהאיום אמיתי ומסוכן, גם אם בפועל לא קיימת סכנה ממשית. כל הימנעות מחזקת את הקישור בין הגירוי לבין התחושה המאיימת, מה שיוצר מעגל סגור: פחד → הימנעות → הקלה רגעית → חיזוק הפחד.</p>
-<p>בנוסף, ככל שההימנעות נמשכת, כך מתרחבת רשימת המצבים שמעוררים חרדה, והחיים מצטמצמים סביב הצורך להימנע. ההימנעות, אם כן, משמשת כמנגנון הגנה שמשרת את החרדה – לא את האדם.</p>
-<hr>
-<h2 id="דרכי-טיפול">דרכי טיפול</h2>
-<h3 id="1-טיפול-קוגניטיבי-התנהגותי-cbt">1. טיפול קוגניטיבי-התנהגותי (CBT)</h3>
-<p>זהו טיפול מבוסס-מחקר שנמצא כיעיל ביותר לחרדה חברתית. הוא כולל:</p>
-<ul>
-<li><strong>חשיפה הדרגתית</strong> למצבים מעוררי חרדה תוך ליווי ותמיכה</li>
-<li><strong>שינוי חשיבה שלילית</strong> – זיהוי והחלפה של פרשנויות מוטות</li>
-<li><strong>למידת מיומנויות חברתיות</strong> – שיחה, אסרטיביות, הקשבה פעילה</li>
-<li><strong>עבודת בית</strong> – התנסות בין המפגשים</li>
-</ul>
-<h3 id="2-טיפול-רגשי-דינמי">2. טיפול רגשי-דינמי</h3>
-<p>טיפול זה עוזר להבין את שורשי החרדה: חוויות ילדות, קשרים מוקדמים, דפוסי אישיות. במקרים בהם החרדה החלה בגיל צעיר או כרוכה בדימוי עצמי פגוע – טיפול רגשי יכול לספק עומק וריפוי לאורך זמן.</p>
-<h3 id="3-טיפול-תרופתי-בדגש-על-ssri">3. טיפול תרופתי (בדגש על SSRI)</h3>
-<p>במקרים בינוניים-קשים, טיפול תרופתי עשוי לספק הקלה משמעותית:</p>
-<ul>
-<li>תרופות מקבוצת <strong>SSRI</strong> (כמו פרוזק, לוסטרל, סרוקסט)</li>
-<li>לפעמים משולבים גם <strong>SNRI</strong> או טיפולים קצרי טווח עם בנזודיאזפינים (בזהירות)</li>
-</ul>
-<p>הטיפול התרופתי ניתן תחת פיקוח רפואי בלבד, ולעיתים משתלב עם טיפול רגשי.</p>
-<h3 id="4-טיפול-קבוצתי">4. טיפול קבוצתי</h3>
-<p>אחד הכלים היעילים להתמודדות עם חרדה חברתית הוא <strong>טיפול קבוצתי מובנה</strong>, שבו מתנסים יחד בסיטואציות חברתיות בתוך מרחב בטוח. זהו שדה אימון חי להפחתת חרדה, קבלת משוב ולמידת ביטחון.</p>
-<hr>
-<h2 id="סיכום">סיכום</h2>
-<p>חרדה חברתית פוגעת בלב הפועם של החיים: הקשרים. אך היא אינה גזירת גורל. עם אבחון מדויק וליווי מקצועי – ניתן לשחרר את הפחד, לצאת ממעגל ההימנעות, ולבנות מחדש תחושת ערך עצמי וביטחון במפגש עם האחר.</p>
-<p>אם אתה או אדם קרוב חווים סימנים של חרדה חברתית – פנייה לעזרה מקצועית היא הצעד הראשון לחיים חופשיים יותר.</p>
-<hr>
 </div>
 
 

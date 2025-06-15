@@ -1,4 +1,4 @@
 ---
-title: News
+title: חדשות
 weight: 20
 ---
