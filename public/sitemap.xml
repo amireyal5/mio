@@ -2,94 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/docs/overview/</loc>
-  </url><url>
     <loc>http://localhost:1313/he/docs/overview/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/docs/tasks/beds/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/docs/tasks/beds/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/docs/tasks/ponycopters/configuring-ponycopters/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/he/docs/tasks/ponycopters/configuring-ponycopters/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/docs/getting-started/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/docs/getting-started/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/docs/examples/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/he/docs/examples/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/docs/tasks/ponycopters/launching-ponycopters/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/docs/tasks/ponycopters/launching-ponycopters/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/docs/tutorials/multi-bear/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/he/docs/tutorials/multi-bear/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/docs/tasks/porridge/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/docs/tasks/porridge/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/docs/concepts/</loc>
-  </url><url>
     <loc>http://localhost:1313/he/docs/concepts/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/docs/tasks/task/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/docs/tasks/task/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/docs/tutorials/tutorial2/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/he/docs/tutorials/tutorial2/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/docs/tasks/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/docs/tasks/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/docs/tutorials/</loc>
-    <lastmod>2017-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/he/docs/tutorials/</loc>
     <lastmod>2017-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/docs/reference/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/docs/reference/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/docs/contribution-guidelines/</loc>
   </url><url>
     <loc>http://localhost:1313/he/docs/contribution-guidelines/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/news/</loc>
-    <lastmod>2018-10-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/blog/news/</loc>
     <lastmod>2018-10-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/he/blog/news/</loc>
@@ -98,25 +53,16 @@
     <loc>http://localhost:1313/blog/releases/</loc>
     <lastmod>2018-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/releases/</loc>
-    <lastmod>2018-01-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/blog/releases/</loc>
     <lastmod>2018-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/</loc>
-    <lastmod>2025-06-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/blog/</loc>
     <lastmod>2025-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-06-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/</loc>
     <lastmod>2025-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/he/</loc>
@@ -126,9 +72,6 @@
     <lastmod>2025-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/1/</loc>
-    <lastmod>2025-06-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/blog/1/</loc>
     <lastmod>2025-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/he/blog/1/</loc>
@@ -161,9 +104,6 @@
     <loc>http://localhost:1313/blog/2/</loc>
     <lastmod>2025-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/2/</loc>
-    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/blog/2/</loc>
     <lastmod>2025-06-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -188,16 +128,10 @@
     <loc>http://localhost:1313/blog/%D7%A7%D7%A9%D7%99%D7%99%D7%9D-%D7%91%D7%9E%D7%A2%D7%A8%D7%9B%D7%95%D7%AA-%D7%99%D7%97%D7%A1%D7%99%D7%9D-%D7%90%D7%99%D7%9A-%D7%9C%D7%A0%D7%95%D7%95%D7%98-%D7%91%D7%90%D7%AA%D7%92%D7%A8%D7%99%D7%9D-%D7%95%D7%9C%D7%A6%D7%9E%D7%95%D7%97-%D7%99%D7%97%D7%93/</loc>
     <lastmod>2025-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/%D7%A7%D7%A9%D7%99%D7%99%D7%9D-%D7%91%D7%9E%D7%A2%D7%A8%D7%9B%D7%95%D7%AA-%D7%99%D7%97%D7%A1%D7%99%D7%9D-%D7%90%D7%99%D7%9A-%D7%9C%D7%A0%D7%95%D7%95%D7%98-%D7%91%D7%90%D7%AA%D7%92%D7%A8%D7%99%D7%9D-%D7%95%D7%9C%D7%A6%D7%9E%D7%95%D7%97-%D7%99%D7%97%D7%93/</loc>
-    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/blog/%D7%A7%D7%A9%D7%99%D7%99%D7%9D-%D7%91%D7%9E%D7%A2%D7%A8%D7%9B%D7%95%D7%AA-%D7%99%D7%97%D7%A1%D7%99%D7%9D-%D7%90%D7%99%D7%9A-%D7%9C%D7%A0%D7%95%D7%95%D7%98-%D7%91%D7%90%D7%AA%D7%92%D7%A8%D7%99%D7%9D-%D7%95%D7%9C%D7%A6%D7%9E%D7%95%D7%97-%D7%99%D7%97%D7%93/</loc>
     <lastmod>2025-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/3/</loc>
-    <lastmod>2025-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/blog/3/</loc>
     <lastmod>2025-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/he/blog/3/</loc>
@@ -230,25 +164,16 @@
     <loc>http://localhost:1313/blog/parental-authority/</loc>
     <lastmod>2025-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/parental-authority/</loc>
-    <lastmod>2025-05-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/blog/parental-authority/</loc>
     <lastmod>2025-05-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/specific-phobia/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/specific-phobia/</loc>
-    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/blog/specific-phobia/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/%D7%97%D7%A8%D7%93%D7%94-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%AA/</loc>
-    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/blog/%D7%97%D7%A8%D7%93%D7%94-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%AA/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/he/blog/%D7%97%D7%A8%D7%93%D7%94-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%AA/</loc>
@@ -269,9 +194,6 @@
     <loc>http://localhost:1313/blog/emotional-manipulations-in-divorce-conflicts/</loc>
     <lastmod>2025-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/emotional-manipulations-in-divorce-conflicts/</loc>
-    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/blog/emotional-manipulations-in-divorce-conflicts/</loc>
     <lastmod>2025-04-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -279,9 +201,6 @@
     <lastmod>2025-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/mindfulness/</loc>
-    <lastmod>2025-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/blog/mindfulness/</loc>
     <lastmod>2025-03-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/he/blog/mindfulness/</loc>
@@ -293,9 +212,6 @@
     <loc>http://localhost:1313/blog/%D7%A1%D7%9B%D7%A1%D7%95%D7%9A-%D7%92%D7%99%D7%A8%D7%95%D7%A9%D7%99%D7%9D-%D7%9B%D7%A9%D7%94%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%91%D7%90%D7%9E%D7%A6%D7%A2-%D7%9E%D7%94-%D7%A9%D7%9B%D7%9C-%D7%94%D7%95%D7%A8%D7%94-%D7%97%D7%99%D7%99%D7%91-%D7%9C%D7%93%D7%A2%D7%AA-%D7%9B%D7%93%D7%99-%D7%9C%D7%94%D7%AA%D7%9E%D7%95%D7%93%D7%93-%D7%A0%D7%9B%D7%95%D7%9F/</loc>
     <lastmod>2025-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/%D7%A1%D7%9B%D7%A1%D7%95%D7%9A-%D7%92%D7%99%D7%A8%D7%95%D7%A9%D7%99%D7%9D-%D7%9B%D7%A9%D7%94%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%91%D7%90%D7%9E%D7%A6%D7%A2-%D7%9E%D7%94-%D7%A9%D7%9B%D7%9C-%D7%94%D7%95%D7%A8%D7%94-%D7%97%D7%99%D7%99%D7%91-%D7%9C%D7%93%D7%A2%D7%AA-%D7%9B%D7%93%D7%99-%D7%9C%D7%94%D7%AA%D7%9E%D7%95%D7%93%D7%93-%D7%A0%D7%9B%D7%95%D7%9F/</loc>
-    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/blog/%D7%A1%D7%9B%D7%A1%D7%95%D7%9A-%D7%92%D7%99%D7%A8%D7%95%D7%A9%D7%99%D7%9D-%D7%9B%D7%A9%D7%94%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%91%D7%90%D7%9E%D7%A6%D7%A2-%D7%9E%D7%94-%D7%A9%D7%9B%D7%9C-%D7%94%D7%95%D7%A8%D7%94-%D7%97%D7%99%D7%99%D7%91-%D7%9C%D7%93%D7%A2%D7%AA-%D7%9B%D7%93%D7%99-%D7%9C%D7%94%D7%AA%D7%9E%D7%95%D7%93%D7%93-%D7%A0%D7%9B%D7%95%D7%9F/</loc>
     <lastmod>2025-02-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -305,16 +221,10 @@
     <loc>http://localhost:1313/blog/globus-hystericus/</loc>
     <lastmod>2025-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/globus-hystericus/</loc>
-    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/blog/globus-hystericus/</loc>
     <lastmod>2025-01-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/%D7%94%D7%95%D7%A8%D7%95%D7%AA-%D7%91%D7%A2%D7%99%D7%93%D7%9F-%D7%94%D7%9E%D7%A1%D7%9B%D7%99%D7%9D-%D7%9B%D7%9C%D7%99%D7%9D-%D7%9C%D7%94%D7%A6%D7%91%D7%AA-%D7%92%D7%91%D7%95%D7%9C%D7%95%D7%AA-%D7%95%D7%A9%D7%99%D7%9E%D7%95%D7%A9-%D7%9E%D7%95%D7%A9%D7%9B%D7%9C/</loc>
-    <lastmod>2024-12-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/blog/%D7%94%D7%95%D7%A8%D7%95%D7%AA-%D7%91%D7%A2%D7%99%D7%93%D7%9F-%D7%94%D7%9E%D7%A1%D7%9B%D7%99%D7%9D-%D7%9B%D7%9C%D7%99%D7%9D-%D7%9C%D7%94%D7%A6%D7%91%D7%AA-%D7%92%D7%91%D7%95%D7%9C%D7%95%D7%AA-%D7%95%D7%A9%D7%99%D7%9E%D7%95%D7%A9-%D7%9E%D7%95%D7%A9%D7%9B%D7%9C/</loc>
     <lastmod>2024-12-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/he/blog/%D7%94%D7%95%D7%A8%D7%95%D7%AA-%D7%91%D7%A2%D7%99%D7%93%D7%9F-%D7%94%D7%9E%D7%A1%D7%9B%D7%99%D7%9D-%D7%9B%D7%9C%D7%99%D7%9D-%D7%9C%D7%94%D7%A6%D7%91%D7%AA-%D7%92%D7%91%D7%95%D7%9C%D7%95%D7%AA-%D7%95%D7%A9%D7%99%D7%9E%D7%95%D7%A9-%D7%9E%D7%95%D7%A9%D7%9B%D7%9C/</loc>
@@ -326,16 +236,10 @@
     <loc>http://localhost:1313/blog/news/first-post/</loc>
     <lastmod>2018-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/news/first-post/</loc>
-    <lastmod>2018-10-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/blog/news/first-post/</loc>
     <lastmod>2018-10-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/news/second-post/</loc>
-    <lastmod>2018-10-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/blog/news/second-post/</loc>
     <lastmod>2018-10-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/he/blog/news/second-post/</loc>
@@ -344,14 +248,8 @@
     <loc>http://localhost:1313/blog/releases/in-depth-monoliths-detailed-spec/</loc>
     <lastmod>2018-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/releases/in-depth-monoliths-detailed-spec/</loc>
-    <lastmod>2018-01-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/blog/releases/in-depth-monoliths-detailed-spec/</loc>
     <lastmod>2018-01-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/docs/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/he/docs/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
@@ -359,16 +257,10 @@
     <loc>http://localhost:1313/tags/docs/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/docs/getting-started/example-page/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/docs/getting-started/example-page/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/examples/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/docs/reference/parameter-reference/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/he/docs/reference/parameter-reference/</loc>
@@ -383,21 +275,12 @@
     <loc>http://localhost:1313/tags/test/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/docs/tasks/ponycopters/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/he/docs/tasks/ponycopters/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
-  </url><url>
     <loc>http://localhost:1313/he/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/community/</loc>
-  </url><url>
     <loc>http://localhost:1313/he/community/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/search/</loc>
   </url><url>
     <loc>http://localhost:1313/he/search/</loc>
   </url>
