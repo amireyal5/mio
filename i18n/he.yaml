@@ -1,0 +1,88 @@
+# כללי
+read_more: "המשך קריאה…"
+menu_label: "תפריט"
+sidemenu_title: "תפריט"
+
+# מטא של פוסטים
+meta_lastmod: "עודכן לאחרונה"
+meta_translations: "תרגומים"
+
+# תוכן עניינים
+toc_title: "תוכן העניינים"
+
+# ניווט בפוסט
+post_nav_prev: "הקודם"
+post_nav_next: "הבא"
+
+# תיבת מחבר
+authorbox_name: "על {{ .Name }}"
+
+# סרגל צד
+sidebar_warning: "אזהרה"
+sidebar_recommendation: "אנא הפעל לפחות ווידג'ט אחד בסרגל הצד."
+
+# ווידג'ט חיפוש
+search_placeholder: "חפש…"
+
+# ווידג'ט שפות
+languages_title: "שפות"
+
+# ווידג'ט קטגוריות
+categories_title: "קטגוריות"
+
+# ווידג'ט פוסטים אחרונים
+recent_title: "פוסטים אחרונים"
+
+# ווידג'ט רשתות חברתיות
+social_title: "רשתות חברתיות"
+
+# ווידג'ט תגיות
+tags_title: "תגיות"
+
+# תחתית העמוד
+footer_credits: "נבנה עם <a href=\"https://gohugo.io/\" rel=\"nofollow noopener\" target=\"_blank\">Hugo</a> וערכת העיצוב <a href=\"https://github.com/Vimux/Mainroad/\" rel=\"nofollow noopener\" target=\"_blank\">Mainroad</a>."
+
+# שגיאה 404
+"404_title": "404. הדף לא נמצא"
+"404_text": "הדף שחיפשת ייתכן והועבר, הוסר או שאינו קיים. אנא השתמש בחיפוש או עבור אל"
+"404_linktext": "העמוד הראשי"
+
+# מצב ריק – אין פוסטים
+noposts_warning_title: "עדיין לא פרסמת פוסטים!"
+noposts_warning_description: "ברגע שתפרסם משהו באחת מהתיקיות (סקשנים) בתיקיית <b>content</b>, הוא יופיע כאן. רק סקשן אחד (זה עם הכי הרבה פוסטים) יוצג כברירת מחדל בעמוד הראשי."
+noposts_warning_tip: "<b>טיפ:</b> תוכל להציג כמה סקשנים שתרצה עם הפרמטר <b><a href=\"https://gohugo.io/functions/where/#mainsections\" rel=\"nofollow noopener\" target=\"_blank\">mainSections</a></b>."
+
+# תפריט עליון
+nav_home: "עמוד הבית"
+nav_about: "אודות"
+nav_contact: "צור קשר"
+nav_blog: "מאמרים"
+nav_faq: "שאלות נפוצות"
+nav_services: "שירותים"
+
+# תיבת מידע אישית
+therapist_intro_title: "קצת עליי"
+therapist_intro_text: >
+  שמי עמיר. אני מטפל מוסמך בעל ניסיון בליווי תהליכים רגשיים. מטרתי היא לאפשר לך מרחב בטוח לצמיחה, הבנה וחיבור פנימי.
+
+# ניווט נגישות
+skip_to_content: "דלג לתוכן"
+
+# תגובות (אם תבחר להפעיל בעתיד Disqus)
+comments_title: "תגובות"
+comments_disabled: "התגובות סגורות למאמר זה."
+
+# קריאה לפעולה
+cta_contact_me: "מעוניין בטיפול? ← צור קשר"
+
+# פוטר נוסף
+footer_about: "מטפל רגשי מוסמך – טיפול מותאם אישית לתהליך האישי שלך."
+footer_privacy: "מדיניות פרטיות"
+
+# כותרות כפתורי פעולה (השורות החדשות)
+view_page_source: "הצג קוד מקור של עמוד"
+edit_this_page: "ערוך עמוד זה"
+create_child_page: "צור עמוד צאצא"
+create_documentation_issue: "צור פנייה בתיעוד"
+create_project_issue: "צור פנייה בפרויקט"
+print_entire_section: "הדפס מדור שלם"

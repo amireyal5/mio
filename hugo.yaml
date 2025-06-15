@@ -1,0 +1,133 @@
+baseURL: "https://example.org/" # החלף את זה בכתובת האתר שלך כשהוא יהיה באוויר
+languageCode: "he-il" # הגדרת קוד השפה הראשי לעברית
+defaultContentLanguage: "he" # חשוב: מגדיר את שפת ברירת המחדל ל"he"
+title: "עמיר אייל פסיכותרפיה" # שנה את זה לשם האתר שלך בעברית
+
+# הגדרת התמה Docsy כמודול Hugo
+theme: "docsy"
+
+# הגדרות מודולים של Hugo
+module:
+  imports:
+    - path: "github.com/google/docsy"
+      # השורה הבאה חשובה במיוחד אם אתה משתמש בגרסה האחרונה של Docsy
+      # ומקבל שגיאות הקשורות ל-SCSS/CSS
+      # זה מושך את המודולים הנדרשים לבנייה
+    - path: "github.com/google/docsy/dependencies"
+
+# הגדרות Goldmark עבור Markdown (כדי לאפשר HTML בתוך Markdown)
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # זה מאפשר ל-Docsy להשתמש ב-HTML גולמי בתוך קבצי Markdown
+  # אופציונלי: הגדרות נוספות עבור Code Highlighting אם אתה משתמש בקטעי קוד
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNumbers: true
+    lineRemovals: ""
+    noClasses: false
+    tabWidth: 4
+
+# הגדרות עיבוד תמונות
+imaging:
+  resampleFilter: "CatmullRom"
+  quality: 75
+  anchor: "smart"
+
+# הגדרות חיפוש מודולים
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+# הגדרות שפה (כעת רק עברית)
+languages:
+  he: # הבלוק עבור השפה העברית
+    languageDirection: "rtl" # מימין לשמאל
+    languageName: "עברית"
+    title: "האתר החדש שלי"
+    description: "אתר לדוגמה המשתמש בתמת Docsy."
+    contentDir: "content" # התוכן יישב ישירות בתיקיית content
+    weight: 1 # סדר הצגה אם היו מספר שפות
+
+# הגדרות Outputs - כיצד Hugo מייצר דפים (ברירת המחדל של Docsy)
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+  page: ["HTML"]
+  section: ["HTML", "RSS", "print"]
+  taxonomy: ["HTML", "RSS"]
+  term: ["HTML", "RSS"]
+
+# הגדרות POSTCSS ו-SCSS (חשוב עבור Docsy)
+# ודא שיש לך Node.js ו-npm מותקנים והרצת 'npm install' בתיקיית הבסיס של הפרויקט
+build:
+  # Docsy דורש עיבוד SCSS באמצעות PostCSS, לכן זה חייב להיות מופעל
+  # וודא שהתקנת את כל התלויות הנדרשות (postcss-cli, autoprefixer וכו')
+  # באמצעות `npm install` בתיקיית השורש של האתר שלך.
+  processing:
+    scss:
+      enable: true
+    # אם אתה רואה שגיאות הקשורות ל-PostCSS, זה יכול להיות קשור להגדרות אלו.
+    # לעיתים קרובות אין צורך לציין input path אם הקבצים נמצאים במקומות הסטנדרטיים של Docsy.
+    # css:
+    #   target: "postcss"
+    #   options:
+    #     noCSSColorVariables: false
+    #     noCSSCustomProperties: false
+
+# הגדרות פרמטרים נוספות (חלק מהן מגיעות מתמת Docsy)
+params:
+  # הגדרות לוגו וניווט
+  ui:
+    navbar_logo: true # הצג לוגו בניווט
+    breadcrumb_disable: false # אפשר פירורי לחם (breadcrumbs)
+    # אופציונלי: התאמה אישית של עיצוב ה-UI
+    # theme_toggle: true # כפתור להחלפת ערכת נושא (בהיר/כהה)
+    # feedback_disable: true # השבתת כפתור הפידבק בתחתית הדף
+
+  # הגדרות ריפוזיטורי (שנה את הלינקים לפרויקט שלך)
+  github_repo: "https://github.com/your-username/your-hugo-project" # החלף בריפו הראשי של האתר שלך
+  github_project_repo: "https://github.com/your-username/your-project-code" # אם יש לך ריפו קוד נפרד
+  github_branch: "main" # שם הבראנץ' הראשי שלך ב-GitHub (בדרך כלל main או master)
+
+  # הגדרות חיפוש (אם אתה משתמש ב-Google Custom Search Engine או חיפוש לא מקוון)
+  # gcs_engine_id: "YOUR_GCS_ENGINE_ID" # הסר או הגיב אם אינך משתמש
+  offlineSearch: false # הגדר ל-true אם אתה רוצה חיפוש לא מקוון עם Lunr.js (דורש הגדרה נוספת)
+
+  # פרטי זכויות יוצרים
+  copyright: { authors: "כותבי האתר שלי", from_year: 2024 } # שנה לשם שלך ולשנה
+
+  # הגדרות פידבק (משתמש ב-Google Analytics)
+  feedback: { enable: false } # שנה ל-true אם אתה רוצה לאפשר פידבק ו-GA מוגדר
+
+  # הגדרות זמן קריאה
+  readingtime: { enable: false } # שנה ל-true אם רוצה להציג זמן קריאה
+
+  # לינקים לפוטר / סיידבאר
+  links:
+    user:
+      - name: "רשימת תפוצה למשתמשים"
+        url: "https://example.org/mail"
+        icon: "fa fa-envelope"
+        desc: "דיון ועזרה ממשתמשים אחרים"
+    developer:
+      - name: "GitHub"
+        url: "https://github.com/your-username/your-hugo-project" # רצוי לקשר לריפו של האתר עצמו
+        icon: "fab fa-github"
+        desc: "הפיתוח מתרחש כאן!"
+
+  # הגדרות Analytics (Google Analytics או אחר)
+  # google_analytics_id: "G-XXXXXXXXXX" # החלף במזהה GA4 שלך
+  # enable_google_analytics: true
+
+  # הגדרות נוספות מ-Docsy (מומלץ לבדוק בתיעוד Docsy לגבי שימוש בהן)
+  # disable_breadcrumb: false
+  # disable_file_menu: false
+  # disable_footer: false
+  # disable_page_header: false
+  # disable_toc: false # מומלץ להשאיר false כדי להציג תוכן עניינים
+  # show_latest_version: false
+  # version_menu: false
+  # versions:
