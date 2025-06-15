@@ -3,8 +3,8 @@ languageCode: "he-il" # הגדרת קוד השפה הראשי לעברית
 defaultContentLanguage: "he" # חשוב: מגדיר את שפת ברירת המחדל ל"he"
 title: "עמיר אייל פסיכותרפיה" # שנה את זה לשם האתר שלך בעברית
 
-# הגדרת התמה Docsy כמודול Hugo
-theme: "docsy"
+# הגדרת התמה Docsy כמודול Hugo - שורה זו הפכה להערה
+# theme: "docsy"
 
 # הגדרות מודולים של Hugo
 module:
@@ -88,8 +88,8 @@ params:
     # feedback_disable: true # השבתת כפתור הפידבק בתחתית הדף
 
   # הגדרות ריפוזיטורי (שנה את הלינקים לפרויקט שלך)
-  github_repo: "https://github.com/your-username/your-hugo-project" # החלף בריפו הראשי של האתר שלך
-  github_project_repo: "https://github.com/your-username/your-project-code" # אם יש לך ריפו קוד נפרד
+  github_repo: "https://github.com/amireyal5/mio" # החלף לריפו הראשי שלך
+  github_project_repo: "https://github.com/amireyal5/mio" # החלף לריפו הקוד שלך (אם נפרד, אחרת אותו דבר)
   github_branch: "main" # שם הבראנץ' הראשי שלך ב-GitHub (בדרך כלל main או master)
 
   # הגדרות חיפוש (אם אתה משתמש ב-Google Custom Search Engine או חיפוש לא מקוון)
@@ -114,7 +114,7 @@ params:
         desc: "דיון ועזרה ממשתמשים אחרים"
     developer:
       - name: "GitHub"
-        url: "https://github.com/your-username/your-hugo-project" # רצוי לקשר לריפו של האתר עצמו
+        url: "https://github.com/amireyal5/mio" # רצוי לקשר לריפו של האתר עצמו
         icon: "fab fa-github"
         desc: "הפיתוח מתרחש כאן!"
 
