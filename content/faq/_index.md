@@ -1,5 +1,5 @@
 ---
-title: שאלות ותשובות
+title: שאלות נפוצות
 linkTitle: שאלות נפוצות
 menu: {main: {weight: 50}}
 ---
