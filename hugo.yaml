@@ -35,7 +35,11 @@ languages:
   he:
     languageDirection: "rtl"
     languageName: "עברית"
+<<<<<<< HEAD
     title: "עמיר אייל פסיכותרפיה והדרכת הורים "
+=======
+    title: "עמיר אייל פסיכותרפיה והדרכת הורים"
+>>>>>>> 7a864db563c676f7184b93e9bdfaf0dd4eccbdb0
     description: "אתר לדוגמה המשתמש בתמת Docsy."
     contentDir: "content"
     weight: 1
