@@ -1,6 +1,5 @@
 ---
 title: "לנהל את הכעס: המפתח לחיים רגועים ומאוזנים"
-type: posts
 date: 2025-06-04
 author: עמיר אייל
 categories:
