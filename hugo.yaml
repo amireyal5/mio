@@ -1,4 +1,5 @@
 baseURL: "https://example.org/"
+i18nDir: "i18n"
 languageCode: "he-il"
 defaultContentLanguage: "he"
 title: "עמיר אייל פסיכותרפיה"
@@ -35,11 +36,7 @@ languages:
   he:
     languageDirection: "rtl"
     languageName: "עברית"
-<<<<<<< HEAD
-    title: "עמיר אייל פסיכותרפיה והדרכת הורים "
-=======
     title: "עמיר אייל פסיכותרפיה והדרכת הורים"
->>>>>>> 7a864db563c676f7184b93e9bdfaf0dd4eccbdb0
     description: "אתר לדוגמה המשתמש בתמת Docsy."
     contentDir: "content"
     weight: 1
@@ -59,13 +56,14 @@ build:
 params:
   ui:
     navbar_logo: img/logo.png
+    
     breadcrumb_disable: false
 
   github_repo: "https://github.com/amireyal5/mio"
   github_project_repo: "https://github.com/amireyal5/mio"
   github_branch: "main"
 
-  offlineSearch: true
+  offlineSearch: false
   offlineSearchSummaryLength: 200
   offlineSearchMaxResults: 25
 

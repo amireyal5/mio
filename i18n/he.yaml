@@ -1,88 +1,98 @@
-# כללי
-read_more: "המשך קריאה…"
-menu_label: "תפריט"
-sidemenu_title: "תפריט"
+ui_pager_prev:
+  other: "הקודם"
 
-# מטא של פוסטים
-meta_lastmod: "עודכן לאחרונה"
-meta_translations: "תרגומים"
+ui_pager_next:
+  other: "הבא"
 
-# תוכן עניינים
-toc_title: "תוכן העניינים"
+ui_read_more:
+  other: "קרא עוד"
 
-# ניווט בפוסט
-post_nav_prev: "הקודם"
-post_nav_next: "הבא"
+ui_search:
+  other: "חפש באתר…"
 
-# תיבת מחבר
-authorbox_name: "על {{ .Name }}"
+ui_in:
+  other: "בתוך"
 
-# סרגל צד
-sidebar_warning: "אזהרה"
-sidebar_recommendation: "אנא הפעל לפחות ווידג'ט אחד בסרגל הצד."
+ui_all:
+  other: "הכל"
 
-# ווידג'ט חיפוש
-search_placeholder: "חפש…"
+footer_all_rights_reserved:
+  other: "כל הזכויות שמורות"
 
-# ווידג'ט שפות
-languages_title: "שפות"
+footer_privacy_policy:
+  other: "מדיניות פרטיות"
 
-# ווידג'ט קטגוריות
-categories_title: "קטגוריות"
+post_byline_by:
+  other: "מאת"
 
-# ווידג'ט פוסטים אחרונים
-recent_title: "פוסטים אחרונים"
+post_created:
+  other: "נוצר בתאריך"
 
-# ווידג'ט רשתות חברתיות
-social_title: "רשתות חברתיות"
+post_last_mod:
+  other: "עודכן לאחרונה"
 
-# ווידג'ט תגיות
-tags_title: "תגיות"
+post_edit_this:
+  other: "ערוך עמוד זה"
 
-# תחתית העמוד
-footer_credits: "נבנה עם <a href=\"https://gohugo.io/\" rel=\"nofollow noopener\" target=\"_blank\">Hugo</a> וערכת העיצוב <a href=\"https://github.com/Vimux/Mainroad/\" rel=\"nofollow noopener\" target=\"_blank\">Mainroad</a>."
+post_view_this:
+  other: "צפה בקוד המקור"
 
-# שגיאה 404
-"404_title": "404. הדף לא נמצא"
-"404_text": "הדף שחיפשת ייתכן והועבר, הוסר או שאינו קיים. אנא השתמש בחיפוש או עבור אל"
-"404_linktext": "העמוד הראשי"
+post_create_child_page:
+  other: "צור עמוד משנה"
 
-# מצב ריק – אין פוסטים
-noposts_warning_title: "עדיין לא פרסמת פוסטים!"
-noposts_warning_description: "ברגע שתפרסם משהו באחת מהתיקיות (סקשנים) בתיקיית <b>content</b>, הוא יופיע כאן. רק סקשן אחד (זה עם הכי הרבה פוסטים) יוצג כברירת מחדל בעמוד הראשי."
-noposts_warning_tip: "<b>טיפ:</b> תוכל להציג כמה סקשנים שתרצה עם הפרמטר <b><a href=\"https://gohugo.io/functions/where/#mainsections\" rel=\"nofollow noopener\" target=\"_blank\">mainSections</a></b>."
+post_create_issue:
+  other: "דווח על בעיית תיעוד"
 
-# תפריט עליון
-nav_home: "עמוד הבית"
-nav_about: "אודות"
-nav_contact: "צור קשר"
-nav_blog: "מאמרים"
-nav_faq: "שאלות נפוצות"
-nav_services: "שירותים"
+post_create_project_issue:
+  other: "דווח על בעיה בפרויקט"
 
-# תיבת מידע אישית
-therapist_intro_title: "קצת עליי"
-therapist_intro_text: >
-  שמי עמיר. אני מטפל מוסמך בעל ניסיון בליווי תהליכים רגשיים. מטרתי היא לאפשר לך מרחב בטוח לצמיחה, הבנה וחיבור פנימי.
+post_posts_in:
+  other: "פוסטים בקטגוריה"
 
-# ניווט נגישות
-skip_to_content: "דלג לתוכן"
+post_reading_time:
+  other: "דקות קריאה"
 
-# תגובות (אם תבחר להפעיל בעתיד Disqus)
-comments_title: "תגובות"
-comments_disabled: "התגובות סגורות למאמר זה."
+post_less_than_a_minute_read:
+  other: "פחות מדקה"
 
-# קריאה לפעולה
-cta_contact_me: "מעוניין בטיפול? ← צור קשר"
+print_printable_section:
+  other: "תצוגה להדפסה של מקטע זה"
 
-# פוטר נוסף
-footer_about: "מטפל רגשי מוסמך – טיפול מותאם אישית לתהליך האישי שלך."
-footer_privacy: "מדיניות פרטיות"
+print_click_to_print:
+  other: "לחץ כאן להדפסה"
 
-# כותרות כפתורי פעולה (השורות החדשות)
-view_page_source: "הצג קוד מקור של עמוד"
-edit_this_page: "ערוך עמוד זה"
-create_child_page: "צור עמוד צאצא"
-create_documentation_issue: "צור פנייה בתיעוד"
-create_project_issue: "צור פנייה בפרויקט"
-print_entire_section: "הדפס מדור שלם"
+print_show_regular:
+  other: "חזרה לתצוגה הרגילה"
+
+print_entire_section:
+  other: "הדפס את כל המקטע"
+
+community_join:
+  other: "הצטרפו לקהילת {{ .Site.Title }}"
+
+community_introduce:
+  other: "{{ .Site.Title }} הוא פרויקט קוד פתוח שכל אחד מהקהילה יכול להשתמש בו, לשפר וליהנות ממנו. נשמח אם תצטרפו אלינו! הנה כמה דרכים לעקוב ולהשתלב."
+
+community_learn:
+  other: "ללמוד ולהתחבר"
+
+community_using:
+  other: "משתמשים ב־{{ .Site.Title }} או רוצים להתחיל? מידע נוסף כאן:"
+
+community_develop:
+  other: "פיתוח ותרומה"
+
+community_contribute:
+  other: "רוצים לתרום ל־{{ .Site.Title }}? התחילו כאן:"
+
+
+
+feedback_negative:
+  other: "לא"
+  
+  other: "תגיות"
+
+tags:
+  other: "תגיות"
+categories:
+  other: "קטגוריות"

@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on עמיר אייל פסיכותרפיה והדרכת הורים </title>
-    <link>https://example.org/categories/</link>
-    <description>Recent content in Categories on עמיר אייל פסיכותרפיה והדרכת הורים </description>
+    <title>Categories on עמיר אייל פסיכותרפיה והדרכת הורים</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on עמיר אייל פסיכותרפיה והדרכת הורים</description>
     <generator>Hugo</generator>
     <language>he</language>
-    <lastBuildDate>Sat, 07 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>מתבגרים</title>
-      <link>https://example.org/categories/%D7%9E%D7%AA%D7%91%D7%92%D7%A8%D7%99%D7%9D/</link>
-      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/%D7%9E%D7%AA%D7%91%D7%92%D7%A8%D7%99%D7%9D/</guid>
+      <title>הדרכת הורים</title>
+      <link>http://localhost:1313/categories/%D7%94%D7%93%D7%A8%D7%9B%D7%AA-%D7%94%D7%95%D7%A8%D7%99%D7%9D/</link>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%D7%94%D7%93%D7%A8%D7%9B%D7%AA-%D7%94%D7%95%D7%A8%D7%99%D7%9D/</guid>
       <description></description>
     </item>
     <item>
       <title>פסיכותרפיה</title>
-      <link>https://example.org/categories/%D7%A4%D7%A1%D7%99%D7%9B%D7%95%D7%AA%D7%A8%D7%A4%D7%99%D7%94/</link>
-      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/%D7%A4%D7%A1%D7%99%D7%9B%D7%95%D7%AA%D7%A8%D7%A4%D7%99%D7%94/</guid>
+      <link>http://localhost:1313/categories/%D7%A4%D7%A1%D7%99%D7%9B%D7%95%D7%AA%D7%A8%D7%A4%D7%99%D7%94/</link>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%D7%A4%D7%A1%D7%99%D7%9B%D7%95%D7%AA%D7%A8%D7%A4%D7%99%D7%94/</guid>
       <description></description>
     </item>
     <item>
-      <title>הדרכת הורים</title>
-      <link>https://example.org/categories/%D7%94%D7%93%D7%A8%D7%9B%D7%AA-%D7%94%D7%95%D7%A8%D7%99%D7%9D/</link>
-      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/%D7%94%D7%93%D7%A8%D7%9B%D7%AA-%D7%94%D7%95%D7%A8%D7%99%D7%9D/</guid>
+      <title>מתבגרים</title>
+      <link>http://localhost:1313/categories/%D7%9E%D7%AA%D7%91%D7%92%D7%A8%D7%99%D7%9D/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%D7%9E%D7%AA%D7%91%D7%92%D7%A8%D7%99%D7%9D/</guid>
       <description></description>
     </item>
     <item>
       <title>Examples</title>
-      <link>https://example.org/categories/examples/</link>
+      <link>http://localhost:1313/categories/examples/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/examples/</guid>
+      <guid>http://localhost:1313/categories/examples/</guid>
       <description></description>
     </item>
     <item>
       <title>Placeholders</title>
-      <link>https://example.org/categories/placeholders/</link>
+      <link>http://localhost:1313/categories/placeholders/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/placeholders/</guid>
+      <guid>http://localhost:1313/categories/placeholders/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+<div id="search" dir="rtl" style="text-align:right; font-family: sans-serif; max-width: 500px; margin: 1em auto;"></div>
+
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    new PagefindUI({
+      element: "#search",
+      translations: {
+        placeholder: "חפש באתר...",
+        clear_search: "נקה",
+        load_more: "טען עוד",
+        searching: "מחפש...",
+        no_results: "לא נמצאו תוצאות"
+      }
+    });
+  });
+</script>t>
