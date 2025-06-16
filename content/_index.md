@@ -3,13 +3,15 @@ title: Goldydocs
 ---
 
 {{< blocks/cover title="פסיכותרפיה למבוגרים, מתבגרים והדרכת הורים" image_anchor="top" height="full" >}}
+
+<p class="lead mt-3">כרמיאל והסביבה ואונליין</p>
+
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/contact/">
-  צרו קשר <i class="fas fa-envelope ms-2"></i>
+  לקביעת פגישה ראשונה <i class="fas fa-envelope ms-2"></i>
 </a>
 <a class="btn btn-lg btn-secondary me-3 mb-4" href="tel:0547509962">
   התקשרו <i class="fas fa-phone ms-2 "></i>
 </a>
-<p class="lead mt-3">כרמיאל והסביבה ואונליין</p>
 
 {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
