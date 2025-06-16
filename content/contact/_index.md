@@ -1,6 +1,6 @@
 ---
 title: צרו קשר
-linkTitle: אודות
+linkTitle:צרו קשר
 
 menu: {main: {weight: 50}}
 ---
