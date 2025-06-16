@@ -4,8 +4,6 @@ linkTitle: צרו קשר
 layout: form
 menu: {main: {weight: 50}}
 ---
-
-{{< form >}}
 {{% blocks/cover title="אודות עמיר אייל" image_anchor="bottom" height="50" %}}
 נא השאירו פרטים ואחזור אליכם בהקדם 
 
@@ -16,13 +14,11 @@ menu: {main: {weight: 50}}
 {{< form >}}
 
 
-{.text-right}
-
 {{% /blocks/lead %}}
 
 {{% blocks/section %}} 
 
-
+{{< form >}}
 
 
 {{% /blocks/section %}}
