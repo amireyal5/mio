@@ -35,7 +35,7 @@ languages:
   he:
     languageDirection: "rtl"
     languageName: "עברית"
-    title: "האתר החדש שלי"
+    title: "עמיר אייל פסיכותרפיה והדרכת הורים"
     description: "אתר לדוגמה המשתמש בתמת Docsy."
     contentDir: "content"
     weight: 1
