@@ -12,7 +12,7 @@ title: Goldydocs
   לקביעת פגישה ראשונה <i class="fas fa-envelope ms-2"></i>
 </a>
 <a class="btn btn-lg btn-secondary me-3 mb-4" href="tel:0547509962">
-  התקשרו <i class="fas fa-phone ms-2 "></i>
+  התקשרו  אלי  <i class="fas fa-phone ms-2 "></i>
 </a>
 
 {{< blocks/link-down color="info" >}}
