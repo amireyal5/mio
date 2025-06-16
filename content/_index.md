@@ -4,7 +4,9 @@ title: Goldydocs
 
 {{< blocks/cover title="פסיכותרפיה למבוגרים, מתבגרים והדרכת הורים" image_anchor="top" height="full" >}}
 
-<p class="lead mt-3">כרמיאל והסביבה ואונליין</p>
+<p class="lead mt-2">כרמיאל והסביבה ואונליין</p>
+
+
 
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/contact/">
   לקביעת פגישה ראשונה <i class="fas fa-envelope ms-2"></i>
