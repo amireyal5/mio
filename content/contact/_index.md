@@ -1,6 +1,7 @@
 ---
 title: צרו קשר
 linkTitle: צרו קשר
+layout: form
 menu: {main: {weight: 50}}
 ---
 
