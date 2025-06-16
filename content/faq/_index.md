@@ -1,7 +1,7 @@
 ---
 title: שאלות נפוצות
 linkTitle: שאלות נפוצות
-menu: {main: {weight: 50}}
+menu: {main: {weight: 60}}
 ---
 
 {{% blocks/cover title="שאלות נפוצות" image_anchor="bottom" height="60" %}}
