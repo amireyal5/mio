@@ -9,7 +9,7 @@ title: Goldydocs
 <a class="btn btn-lg btn-secondary me-3 mb-4" href="tel:0547509962">
   התקשרו <i class="fas fa-phone ms-2 "></i>
 </a>
-<p class="lead mt-5">Porridge temperature assessment &mdash; in the cloud!</p>
+<p class="lead mt-3">כרמיאל והסביבה ואונליין</p>
 
 {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
