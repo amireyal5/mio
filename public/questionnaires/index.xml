@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Questionnaires on עמיר אייל פסיכותרפיה והדרכת הורים</title>
+    <title>Questionnaires on עמיר אייל פסיכותרפיה</title>
     <link>http://localhost:1313/questionnaires/</link>
-    <description>Recent content in Questionnaires on עמיר אייל פסיכותרפיה והדרכת הורים</description>
+    <description>Recent content in Questionnaires on עמיר אייל פסיכותרפיה</description>
     <generator>Hugo</generator>
     <language>he</language>
     <atom:link href="http://localhost:1313/questionnaires/index.xml" rel="self" type="application/rss+xml" />
